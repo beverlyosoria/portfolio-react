@@ -8,27 +8,27 @@ class App extends Component {
 	render() {
 		return (
 			<div className to="demo-big-content">
-    <Layout>
-        <Header title to="Title" scroll>
-            <Navigation>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title to="Title">
-            <Navigation>
-				<Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-            <div className to="page-content" />
-			<Main/>
-        </Content>
-    </Layout>
-</div>
+				<Layout>
+					<Header className="header-color" title to="Title" scroll>
+						<Navigation>
+							<Link to="/about">About</Link>
+							<Link to="/projects">Projects</Link>
+							<Link to="/contact">Contact</Link>
+						</Navigation>
+					</Header>
+					<Drawer title to="Title">
+						<Navigation>
+							<Link to="/about">About</Link>
+							<Link to="/projects">Projects</Link>
+							<Link to="/contact">Contact</Link>
+						</Navigation>
+					</Drawer>
+					<Content>
+						<div className to="page-content" />
+						<Main />
+					</Content>
+				</Layout>
+			</div>
 		);
 	}
 }
