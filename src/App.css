@@ -1,1 +1,27 @@
+.header-color,
+.home-grid {
+	background: #649173; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #dbd5a4, #649173); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#dbd5a4,
+		#649173
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.avatar-img {
+	height: 250px;
+	padding-top: 5em;
+}
+.banner-text {
+	background-color: black;
+	opacity: .8;
+	width: 75%;
+	margin: auto;
+	border-radius: 10px;
+}
 
+.banner-text h1 {
+	font-size: 66px;
+	font-weight: bold;
+	color: white;
+}
