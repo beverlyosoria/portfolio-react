@@ -6,6 +6,28 @@ class Projects extends Component {
 		super(props);
 		this.state = { activeTab: 0 };
 	}
+	toggleCategories() {
+		if (this.state.activeTab === 0) {
+			return (
+				<div>
+					<h1>This is React</h1>
+				</div>
+			);
+		} else if (this.state.activeTab === 1) {
+			return (
+				<div>
+					<h1>This is Python</h1>
+				</div>
+			);
+		} else if (this.state.activeTab === 2) {
+			return (
+				<div>
+					<h1>This is MongoDB</h1>
+				</div>
+			);
+		}
+	}
+
 	render() {
 		return (
 			<div className="category-tabs">
@@ -14,6 +36,7 @@ class Projects extends Component {
 					<Tab>Python</Tab>
 					<Tab>MongoDB</Tab>
 				</Tabs>
+				<section className="projects-grid">{this.toggleCategories()}</section>
 			</div>
 		);
 	}
