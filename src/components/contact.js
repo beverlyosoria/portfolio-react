@@ -1,13 +1,29 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
 class Contact extends Component {
-    render() {
-        return(
-            <div>
-                <h1>Contact</h1>
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className="contact-body">
+				<Grid className="contact-grid">
+					<Cell col={6}>
+						Beverly Osoria
+						<img
+							src="https://c7.uihere.com/files/874/871/627/pop-art-comics-female-comic-book-beauty-avatar-thumb.jpg"
+							alt="avatar"
+							style={{ height: '250px' }}
+						/>
+						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur quo odio
+							quia reprehenderit distinctio qui et officiis illum facilis iusto molestiae dignissimos,
+							commodi ea rerum explicabo ut magni quos?
+						</p>
+					</Cell>
+					<Cell col={6}>Half page</Cell>
+				</Grid>
+			</div>
+		);
+	}
 }
 
 export default Contact;
