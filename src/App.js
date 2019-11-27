@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
@@ -18,12 +20,9 @@ class App extends Component {
 						}
 						scroll
 					>
-						<Navigation>
-							<Link to="/about">About</Link>
-							<Link to="/projects">Projects</Link>
-							<Link to="/contact">Contact</Link>
-						</Navigation>
-					</Header>
+					
+						</Header>
+						
 					<Drawer
 						title={
 							<Link style={{ textDecoration: 'none', color: 'black' }} to="/">
