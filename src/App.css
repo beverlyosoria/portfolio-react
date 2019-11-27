@@ -1,20 +1,9 @@
-.header-color {
-	background: #649173; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #dbd5a4, #649173); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#dbd5a4,
-		#649173
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 .home-grid {
-	background: #649173; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #dbd5a4, #649173); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#dbd5a4,
-		#649173
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	text-align: center;
 	top: 0;
 	left: 0;
@@ -24,6 +13,25 @@
 .projects-grid {
 	display: flex;
 }
+
+/* Navigation */
+label.nav-btn.btn.btn-primary
+{
+	background-color: black;
+	opacity: .8;
+	border-color: white;
+	font-family: 'Judson', serif;
+}
+.nav-btn a {
+	color: white;
+	font-size: 24px;
+}
+.nav-btn a:hover {
+	color: white;
+}
+label.nav-btn.btn.btn-primary:hover {
+	background-color: grey;
+}
 /* contact page */
 .contact-body {
 	margin: auto;
@@ -31,6 +39,7 @@
 	height: 100%;
 	justify-content: center;
 	padding-top: 2em;
+	font-family: 'Judson', serif;
 }
 .contact-grid {
 	text-align: center;
@@ -41,12 +50,7 @@
 	color: black;
 	margin-bottom: 20px;
 }
-.contact-grid h2 {
-	font-family: 'Anton', sans-serif;
-}
-.contact-grid p {
-	font-family: 'Oxygen', sans-serif;
-}
+
 .contact-grid hr {
 	border-top: 5px dotted black;
 	width: 50%;
@@ -68,23 +72,28 @@
 	width: 75%;
 	margin: auto;
 	border-radius: 10px;
+	
 }
 
 .banner-text h1 {
 	font-size: 66px;
 	font-weight: bold;
-	color: white;
+	color: #f47362;
+	font-family: 'Archivo Black', sans-serif;
+	
 }
 .banner-text hr {
-	border-top: 5px dotted white;
-	width: 50%;
+	color: white;
+	width: 70%;
 	margin: auto;
 }
 .banner-text p {
 	color: white;
 	font-size: 20px;
 	padding: 1em;
+	font-family: 'Judson', serif;
 }
+
 .social-links {
 	display: flex;
 	justify-content: space-between;
@@ -96,3 +105,4 @@
 	font-size: 5em;
 	padding: 8px;
 }
+
