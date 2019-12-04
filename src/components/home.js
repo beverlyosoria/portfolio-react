@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import { ButtonGroup, ToggleButton } from 'react-bootstrap';
 import avatar from '../../src/assests/img/beverly.png';
+import About from './about';
+import Projects from './projects';
+import Contact from './contact';
+
 
 
 // 	render() {
@@ -63,19 +67,19 @@ class Home extends Component {
 		} else if (this.state.activeTab === 1) {
 			return (
 				<div>
-					<h1>About</h1>
+					<About />
 				</div>
 			);
 		} else if (this.state.activeTab === 2) {
 			return (
 				<div>
-					<h1>Projects</h1>
+					<Projects />
 				</div>
 			);
 		} else if (this.state.activeTab === 3) {
 			return (
 				<div>
-					<h1>Contact</h1>
+					<Contact />
 				</div>
 			);
 		}
