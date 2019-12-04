@@ -83,20 +83,20 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div className="category-tabs">
-				
+			<div className="home-grid">
+				<ButtonGroup toggle className="mt-3">
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-				{/* <ToggleButton className="nav-btn" type="radio" name="radio" defaultChecked value="1"> */}
+				<ToggleButton className="nav-btn" type="radio" name="radio" defaultChecked value="1">
 					<Tab>About</Tab>
-						{/* </ToggleButton> */}
-						{/* <ToggleButton className="nav-btn" type="radio" name="radio" value="2"> */}
+						</ToggleButton>
+						<ToggleButton className="nav-btn" type="radio" name="radio" value="2">
 					<Tab>Projects</Tab>
-					{/* </ToggleButton>
-					<ToggleButton className="nav-btn" type="radio" name="radio" value="3"> */}
+						</ToggleButton>
+						 <ToggleButton className="nav-btn" type="radio" name="radio" value="3"> 
 					<Tab>Contact</Tab>
-					{/* </ToggleButton> */}
+					</ToggleButton>
 				</Tabs>
-
+				</ButtonGroup>
 				<Grid>
 					<Cell col={12}>
 						<div className="content">{this.toggleCategories()}</div>
