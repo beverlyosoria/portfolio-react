@@ -22,11 +22,11 @@ label.nav-btn.btn.btn-primary
 	border-color: white;
 	font-family: 'Judson', serif;
 }
-.nav-btn a {
+.nav-btn {
 	color: white;
 	font-size: 24px;
 }
-.nav-btn a:hover {
+.nav-btn Tab:hover {
 	color: white;
 }
 label.nav-btn.btn.btn-primary:hover {

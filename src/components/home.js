@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import { ButtonGroup, ToggleButton } from 'react-bootstrap';
 import avatar from '../../src/assests/img/beverly.png';
 import About from './about';
 import Projects from './projects';
@@ -51,9 +50,9 @@ class Home extends Component {
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
 			return (
-				<div className="projects-grid">
+				<div className="home-grid">
 					{/* Project 1 */}
-					<div className="home-grid">	
+					
 				<div className="banner-text">
  					<img src={avatar} alt="avatar" className="avatar-img" />
  					<h1>Beverly Osoria</h1>
@@ -62,7 +61,7 @@ class Home extends Component {
  						<div className="d-flex justify-content-center"></div>
 				</div>
 				</div>
-				</div>
+			
 			);
 		} else if (this.state.activeTab === 1) {
 			return (
@@ -88,19 +87,20 @@ class Home extends Component {
 	render() {
 		return (
 			<div className="home-grid">
-				<ButtonGroup toggle className="mt-3">
+				{/* <ButtonGroup toggle className="mt-3"> */}
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-				<ToggleButton className="nav-btn" type="radio" name="radio" defaultChecked value="1">
-					<Tab>About</Tab>
-						</ToggleButton>
-						<ToggleButton className="nav-btn" type="radio" name="radio" value="2">
-					<Tab>Projects</Tab>
-						</ToggleButton>
-						 <ToggleButton className="nav-btn" type="radio" name="radio" value="3"> 
-					<Tab>Contact</Tab>
-					</ToggleButton>
+				{/* <ToggleButton className="nav-btn" type="radio" name="radio" defaultChecked value="1"> */}
+					<Tab className="nav-btn"> </Tab>
+						{/* </ToggleButton> */}
+						{/* <ToggleButton className="nav-btn" type="radio" name="radio" value="2"> */}
+					<Tab className="nav-btn">About</Tab>
+						{/* </ToggleButton> */}
+						 {/* <ToggleButton className="nav-btn" type="radio" name="radio" value="3">  */}
+					<Tab className="nav-btn">Projects</Tab>
+					<Tab className="nav-btn">Contact</Tab>
 				</Tabs>
-				</ButtonGroup>
+				
+			
 				<Grid>
 					<Cell col={12}>
 						<div className="content">{this.toggleCategories()}</div>
