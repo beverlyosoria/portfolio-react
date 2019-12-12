@@ -4,9 +4,9 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 class About extends Component {
 	render() {
 		return (
-    <div>
-      <h1> About me here bio words words.</h1>
-	  </div>
+			<div className="banner-text">
+				<h1> About me here bio words words.</h1>
+			</div>
 		);
 	}
 }
