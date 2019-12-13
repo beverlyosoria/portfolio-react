@@ -11,8 +11,12 @@ body {
 	height: 100%;
 }
 .projects-grid {
-	background: white;
 	display: flex;
+	background-color: black;
+	opacity: .9;
+	width: 75%;
+	margin: auto;
+	border-radius: 10px;
 }
 
 /* Navigation */
@@ -91,7 +95,6 @@ label.nav-btn.btn.btn-primary:hover {
 	padding: 1em;
 	font-family: 'Judson', serif;
 }
-
 .social-links {
 	display: flex;
 	justify-content: space-between;
