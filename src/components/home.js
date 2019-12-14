@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import avatar from '../../src/assests/img/beverly.png';
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
@@ -51,10 +50,22 @@ class Home extends Component {
 					{/* Project 1 */}
 
 					<div className="banner-text">
-						<img src={avatar} alt="avatar" className="avatar-img" />
-						<h1>Beverly Osoria</h1>
+						<br />
 						<hr />
-						<p>Full Stack Engineer. Skills I am good at here.</p>
+						<h1>BEVERLY OSORIA</h1>
+
+						<h2>FULL-STACK DEVELOPER</h2>
+						<hr />
+						<br />
+						<p>
+							<i class="fa fa-map-marker" aria-hidden="true" />
+							Austin
+							<i class="fa fa-github" aria-hidden="true" />
+							Github
+							<i class="fa fa-linkedin-square" aria-hidden="true" />
+							LinkedIn
+						</p>
+
 						<div className="d-flex justify-content-center" />
 					</div>
 				</div>
@@ -86,14 +97,20 @@ class Home extends Component {
 				{/* <ButtonGroup toggle className="mt-3"> */}
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
 					{/* <ToggleButton className="nav-btn" type="radio" name="radio" defaultChecked value="1"> */}
-					<Tab className="nav-btn"> </Tab>
+
+					<Tab id="nav-tab">HOME </Tab>
+
 					{/* </ToggleButton> */}
 					{/* <ToggleButton className="nav-btn" type="radio" name="radio" value="2"> */}
-					<Tab className="nav-btn">About</Tab>
+
+					<Tab id="nav-tab">ABOUT</Tab>
+
 					{/* </ToggleButton> */}
 					{/* <ToggleButton className="nav-btn" type="radio" name="radio" value="3">  */}
-					<Tab className="nav-btn">Projects</Tab>
-					<Tab className="nav-btn">Contact</Tab>
+
+					<Tab id="nav-tab">PROJECTS</Tab>
+
+					<Tab id="nav-tab">CONTACT</Tab>
 				</Tabs>
 
 				<Grid>
