@@ -20,10 +20,6 @@ body {
 	border-radius: 10px;
 }
 
-.div.mdl-card.mdl-shadow--16dp {
-	margin: 20px;
-}
-
 /* Navigation */
 #nav-tab {
 	color: white;
@@ -65,12 +61,12 @@ body {
 	font-size: 66px;
 	padding-right: 6rem;
 }
-/* contact page */
-.avatar-img {
-	height: 250px;
-	padding-top: 5em;
-}
 
+/* about page */
+.avatar-img {
+	height: 280px;
+	padding-top: 20px;
+}
 .banner-text {
 	background-color: black;
 	opacity: .9;
@@ -83,6 +79,7 @@ body {
 	font-size: 66px;
 	color: #e79087;
 	font-family: 'Dosis', sans-serif;
+	margin: 0;
 }
 .banner-text h2 {
 	font-size: 30px;
@@ -108,6 +105,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	letter-spacing: 1px;
 }
+/* home page */
 .social-links {
 	display: flex;
 	justify-content: space-between;

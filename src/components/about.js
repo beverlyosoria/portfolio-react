@@ -16,8 +16,8 @@ class About extends Component {
 				<p>
 					My skills include:
 					<br />
-					HTML5 | CSS3 | JavaScript | React | Python | Django | Express| Node.js| MySQL PostgreSQL| MongoDB |
-					Mongoose | Git
+					HTML5 | CSS3 | JavaScript | React | Python | Django | Express| Node.js| MySQL | PostgreSQL | MongoDB
+					| Mongoose | Git
 				</p>
 			</div>
 		);

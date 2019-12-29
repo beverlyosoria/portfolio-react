@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import movie from '../../src/assests/img/movie.jpg';
 
 class Projects extends Component {
 	render() {
 		return (
 			<div className="projects-grid">
 				{/* Project 1 */}
-				<Card shadow={5} style={{ minWidth: '450', margin: '25px' }}>
+				<Card shadow={6} style={{ width: '512px', margin: 'auto' }}>
 					<CardTitle
 						style={{
 							color: '#fff',
 							height: '176px',
-							background:
-								'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center / cover'
+							backgroundImage: 'url(' + movie + ')',
+							backgroundSize: 'cover'
 						}}
-					>
-						Guess That Movie
-					</CardTitle>
+					/>
 					<CardText>
+						<p>
+							<h4>Guess That Movie</h4>
+						</p>
 						<p>
 							<h5>utilizing JavaScript to guess movie titles based on images. </h5>
 							A game in which the player is prompted with three images that are symbolic of a movie. The
@@ -33,6 +35,7 @@ class Projects extends Component {
 						<IconButton name="share" />
 					</CardMenu>
 				</Card>
+
 				{/* Project 2 */}
 				<Card shadow={5} style={{ minWidth: '450', margin: '25px' }}>
 					<CardTitle
