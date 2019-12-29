@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
 	render() {
 		return (
 			<div className="projects-grid">
 				{/* Project 1 */}
-				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+				<Card shadow={5} style={{ minWidth: '450', margin: '25px' }}>
 					<CardTitle
 						style={{
 							color: '#fff',
@@ -19,22 +19,22 @@ class Projects extends Component {
 					</CardTitle>
 					<CardText>
 						<p>
-							utilizing JavaScript to guess movie titles based on images. A game in which the player is
-							prompted with three images that are symbolic of a movie. The user must guess the movie title
-							to move on to the next set of images. The player wins when all movie titles are guessed
-							correctly.
+							<h5>utilizing JavaScript to guess movie titles based on images. </h5>
+							A game in which the player is prompted with three images that are symbolic of a movie. The
+							user must guess the movie title to move on to the next set of images. The player wins when
+							all movie titles are guessed correctly.
 						</p>
 					</CardText>
 					<CardActions border>
 						<Button colored>Guess That Movie</Button>
-						<Button colored>GitHub</Button>
+						<Button colored>Code</Button>
 					</CardActions>
 					<CardMenu style={{ color: '#fff' }}>
 						<IconButton name="share" />
 					</CardMenu>
 				</Card>
 				{/* Project 2 */}
-				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+				<Card shadow={5} style={{ minWidth: '450', margin: '25px' }}>
 					<CardTitle
 						style={{
 							color: '#fff',
@@ -63,7 +63,7 @@ class Projects extends Component {
 					</CardMenu>
 				</Card>
 				{/* Project 3 */}
-				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+				<Card shadow={5} style={{ minWidth: '450', margin: '25px' }}>
 					<CardTitle
 						style={{
 							color: '#fff',

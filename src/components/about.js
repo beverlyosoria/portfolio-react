@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import avatar from '../../src/assests/img/beverly.png';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 class About extends Component {
 	render() {

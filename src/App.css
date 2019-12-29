@@ -20,6 +20,10 @@ body {
 	border-radius: 10px;
 }
 
+.div.mdl-card.mdl-shadow--16dp {
+	margin: 20px;
+}
+
 /* Navigation */
 #nav-tab {
 	color: white;
@@ -92,7 +96,6 @@ body {
 	color: white;
 	font-family: 'Dosis', sans-serif;
 }
-
 .banner-text hr {
 	color: white;
 	width: 70%;
