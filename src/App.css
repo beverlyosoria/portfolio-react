@@ -12,12 +12,14 @@ body {
 	font-size: 25px;
 }
 .projects-grid {
-	display: flex;
 	background-color: black;
 	opacity: .9;
 	width: 75%;
 	margin: auto;
 	border-radius: 10px;
+}
+.row {
+	justify-content: space-evenly;
 }
 
 /* Navigation */
