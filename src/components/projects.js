@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Cell } from 'react-mdl';
 import movie from '../../src/assests/img/movie.jpg';
+import searchit from '../../src/assests/img/searchit.jpg';
+import happiest from '../../src/assests/img/happiest.jpg';
 
 class Projects extends Component {
 	render() {
@@ -26,6 +28,7 @@ class Projects extends Component {
 							>
 								Guess That Movie
 							</h5>
+
 							<p style={{}}>utilizing JavaScript to guess movie titles based on images. </p>
 							<CardText>
 								<p>
@@ -50,20 +53,20 @@ class Projects extends Component {
 								style={{
 									color: '#fff',
 									height: '176px',
-									background:
-										'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center / cover'
+									backgroundImage: 'url(' + searchit + ')',
+									backgroundSize: 'cover'
+								}}
+							/>
+							<h5
+								style={{
+									textAlign: 'left',
+									marginLeft: '.8em'
 								}}
 							>
-								<h5
-									style={{
-										textAlign: 'left',
-										marginLeft: '.8em'
-									}}
-								>
-									Search It
-								</h5>
-								<p>add, create and update posts and reviews of local businesses </p>
-							</CardTitle>
+								Search It
+							</h5>
+							<p>add, create and update posts and reviews of local businesses </p>
+
 							<CardText>
 								<p>
 									A place where you can search for deaf-friendly businesses in your area or share your
@@ -91,20 +94,20 @@ class Projects extends Component {
 								style={{
 									color: '#fff',
 									height: '176px',
-									background:
-										'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center / cover'
+									backgroundImage: 'url(' + happiest + ')',
+									backgroundSize: 'cover'
+								}}
+							/>
+							<h5
+								style={{
+									textAlign: 'left',
+									marginLeft: '.8em'
 								}}
 							>
-								<h5
-									style={{
-										textAlign: 'left',
-										marginLeft: '.8em'
-									}}
-								>
-									Happiest Hour
-								</h5>
-								<p>create group events and invite friends </p>
-							</CardTitle>
+								Happiest Hour
+							</h5>
+							<p>create group events and invite friends </p>
+
 							<CardText>
 								<p>
 									UX Designer, Front-end Developer · Happiest Hour Happiest Hour simplifies organizing
