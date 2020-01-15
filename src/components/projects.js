@@ -101,20 +101,37 @@ class Projects extends Component {
 							<h5
 								style={{
 									textAlign: 'left',
-									marginLeft: '.8em'
+									marginLeft: '1em',
+									padding: '0'
 								}}
 							>
 								Happiest Hour
 							</h5>
-							<p>create group events and invite friends </p>
+							<p
+								style={{
+									position: 'absolute',
+
+									positionRight: '5px',
+									textAlign: 'right'
+								}}
+							>
+								A collaborative project as a UX Designer, Front-end Developer{' '}
+							</p>
+							<p
+								style={{
+									textAlign: 'left',
+									marginLeft: '1em'
+								}}
+							>
+								create and track group events and invite friends{' '}
+							</p>
 
 							<CardText>
 								<p>
-									UX Designer, Front-end Developer · Happiest Hour Happiest Hour simplifies organizing
-									a happy hour with your coworkers, planning a weekend with your friends, or
-									coordinating a soccer practice with your teammates all in one place. Through the
-									app, the user can suggest a place, set a time and location and share privately with
-									a group of choice.
+									Happiest Hour Happiest Hour simplifies organizing a happy hour with your coworkers,
+									planning a weekend with your friends, or coordinating a soccer practice with your
+									teammates all in one place. Through the app, the user can suggest a place, set a
+									time and location and share privately with a group of choice.
 								</p>
 							</CardText>
 							<CardActions border>
