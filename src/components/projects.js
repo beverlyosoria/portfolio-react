@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { Grid, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Cell } from 'react-mdl';
 import movie from '../../src/assests/img/movie.jpg';
 import searchit from '../../src/assests/img/searchit.jpg';
@@ -38,8 +39,17 @@ class Projects extends Component {
 								</p>
 							</CardText>
 							<CardActions border>
-								<Button colored>Guess That Movie</Button>
-								<Button colored>Code</Button>
+								<Button colored>
+									{' '}
+									<a href="http://moviegame.surge.sh/" target="_blank">
+										Guess That Movie
+									</a>
+								</Button>
+								<Button colored>
+									<a href="https://github.com/beverlyosoria/Guess-That-Movie" target="_blank">
+										Code{' '}
+									</a>
+								</Button>
 							</CardActions>
 							<CardMenu style={{ color: '#fff' }}>
 								<IconButton name="share" />
@@ -78,7 +88,11 @@ class Projects extends Component {
 							</CardText>
 							<CardActions border>
 								<Button colored>Search It</Button>
-								<Button colored>GitHub</Button>
+								<Button colored>
+									<a href="https://github.com/beverlyosoria/deaf-friendly" target="_blank">
+										Code{' '}
+									</a>
+								</Button>
 							</CardActions>
 							<CardMenu style={{ color: '#fff' }}>
 								<IconButton name="share" />
@@ -109,10 +123,7 @@ class Projects extends Component {
 							</h5>
 							<p
 								style={{
-									position: 'absolute',
-
-									positionRight: '5px',
-									textAlign: 'right'
+									position: 'absolute'
 								}}
 							>
 								A collaborative project as a UX Designer, Front-end Developer{' '}
@@ -136,7 +147,11 @@ class Projects extends Component {
 							</CardText>
 							<CardActions border>
 								<Button colored>Happiest Hour</Button>
-								<Button colored>GitHub</Button>
+								<Button colored>
+									<a href="https://github.com/beverlyosoria/happiest-hour" target="_blank">
+										Code{' '}
+									</a>
+								</Button>
 							</CardActions>
 							<CardMenu style={{ color: '#fff' }}>
 								<IconButton name="share" />
