@@ -4,6 +4,7 @@ import { Grid, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconBut
 import movie from '../../src/assests/img/movie.jpg';
 import searchit from '../../src/assests/img/searchit.jpg';
 import happiest from '../../src/assests/img/happiest.jpg';
+import deafinitely from '../../src/assests/img/deafinitely.jpg';
 
 class Projects extends Component {
 	render() {
@@ -75,7 +76,10 @@ class Projects extends Component {
 							>
 								Search It
 							</h5>
-							<p>add, create and update posts and reviews of local businesses </p>
+							<p>
+								using Mongoose and Node.js to add, create and update posts and reviews of local
+								businesses based on the criteria of deaf friendliness.
+							</p>
 
 							<CardText>
 								<p>
@@ -87,7 +91,12 @@ class Projects extends Component {
 								</p>
 							</CardText>
 							<CardActions border>
-								<Button colored>Search It</Button>
+								<Button colored>
+									<a href="https://deaf-friendly.herokuapp.com" target="_blank">
+										Search It
+									</a>
+								</Button>
+
 								<Button colored>
 									<a href="https://github.com/beverlyosoria/deaf-friendly" target="_blank">
 										Code{' '}
@@ -134,7 +143,7 @@ class Projects extends Component {
 									marginLeft: '1em'
 								}}
 							>
-								create and track group events and invite friends{' '}
+								employing Python and Django to create group events and invite friends.
 							</p>
 
 							<CardText>
@@ -146,9 +155,65 @@ class Projects extends Component {
 								</p>
 							</CardText>
 							<CardActions border>
-								<Button colored>Happiest Hour</Button>
+								{/* <Button colored>Happiest Hour</Button> */}
 								<Button colored>
 									<a href="https://github.com/beverlyosoria/happiest-hour" target="_blank">
+										Code{' '}
+									</a>
+								</Button>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+					</Cell>
+				</Grid>
+				{/* Project 4 */}
+				<Grid className="row">
+					<Cell coll={4}>
+						<Card shadow={5} style={{ minWidth: '450' }}>
+							<CardTitle
+								style={{
+									color: '#fff',
+									height: '176px',
+									backgroundImage: 'url(' + deafinitely + ')',
+									backgroundSize: 'cover'
+								}}
+							/>
+							<h5
+								style={{
+									textAlign: 'left',
+									marginLeft: '1em',
+									padding: '0'
+								}}
+							>
+								Deafinitely Friendly
+							</h5>
+
+							<p
+								style={{
+									textAlign: 'left',
+									marginLeft: '1em'
+								}}
+							>
+								working with React.js, Node.js, Express and a third party API to search for local
+								businesses and post reviews.
+							</p>
+
+							<CardText>
+								<p>
+									A reconstructed version of Search It. Rate and post reviews for a local business
+									based on the criteria of deaf friendliness.
+								</p>
+							</CardText>
+							<CardActions border>
+								<Button colored>
+									<a href="https://deafinitely-friendly.herokuapp.com/" target="_blank">
+										Deafinitely Friendly
+									</a>
+								</Button>
+								<Button colored>
+									<a href="https://github.com/beverlyosoria/deafinitely-friendly" target="_blank">
 										Code{' '}
 									</a>
 								</Button>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Navigation, Drawer, Content } from 'react-mdl';
 
 import Main from './components/main';
 import { Link } from 'react-router-dom';
@@ -11,8 +11,6 @@ class App extends Component {
 		return (
 			<div className to="demo-big-content">
 				<Layout>
-					
-						
 					<Drawer
 						title={
 							<Link style={{ textDecoration: 'none', color: 'black' }} to="/">
