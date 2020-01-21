@@ -40,15 +40,28 @@ class Projects extends Component {
 								</p>
 							</CardText>
 							<CardActions border>
-								<Button colored>
-									{' '}
-									<a href="http://moviegame.surge.sh/" target="_blank">
+								<Button>
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="http://moviegame.surge.sh/"
+										target="_blank"
+									>
 										Guess That Movie
 									</a>
 								</Button>
-								<Button colored>
-									<a href="https://github.com/beverlyosoria/Guess-That-Movie" target="_blank">
-										Code{' '}
+								<Button>
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://github.com/beverlyosoria/Guess-That-Movie"
+										target="_blank"
+									>
+										Code
 									</a>
 								</Button>
 							</CardActions>
@@ -93,13 +106,27 @@ class Projects extends Component {
 							</CardText>
 							<CardActions border>
 								<Button colored>
-									<a href="https://deaf-friendly.herokuapp.com" target="_blank">
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://deaf-friendly.herokuapp.com"
+										target="_blank"
+									>
 										Search It
 									</a>
 								</Button>
 
 								<Button colored>
-									<a href="https://github.com/beverlyosoria/deaf-friendly" target="_blank">
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://github.com/beverlyosoria/deaf-friendly"
+										target="_blank"
+									>
 										Code{' '}
 									</a>
 								</Button>
@@ -158,7 +185,14 @@ class Projects extends Component {
 							<CardActions border>
 								{/* <Button colored>Happiest Hour</Button> */}
 								<Button colored>
-									<a href="https://github.com/beverlyosoria/happiest-hour" target="_blank">
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://github.com/beverlyosoria/happiest-hour"
+										target="_blank"
+									>
 										Code{' '}
 									</a>
 								</Button>
@@ -208,13 +242,27 @@ class Projects extends Component {
 								</p>
 							</CardText>
 							<CardActions border>
-								<Button colored>
-									<a href="https://deafinitely-friendly.herokuapp.com/" target="_blank">
+								<Button>
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://deafinitely-friendly.herokuapp.com/"
+										target="_blank"
+									>
 										Deafinitely Friendly
 									</a>
 								</Button>
-								<Button colored>
-									<a href="https://github.com/beverlyosoria/deafinitely-friendly" target="_blank">
+								<Button>
+									<a
+										style={{
+											textDecoration: 'none',
+											color: '#e79087'
+										}}
+										href="https://github.com/beverlyosoria/deafinitely-friendly"
+										target="_blank"
+									>
 										Code{' '}
 									</a>
 								</Button>

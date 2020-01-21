@@ -2,6 +2,13 @@ body {
 	background-color: #e79087;
 	background-image: linear-gradient(315deg, #e79087 0%, #fcd181 74%);
 }
+
+a:link {
+	color: #e79087;
+}
+a:hover {
+	color: black;
+}
 .home-grid {
 	text-align: center;
 	top: 0;
