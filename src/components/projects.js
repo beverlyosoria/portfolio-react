@@ -13,7 +13,7 @@ class Projects extends Component {
 				<Grid className="row">
 					{/* Project 1 */}
 					<Cell coll={4}>
-						<Card shadow={6} style={{ minwidth: '450px' }}>
+						<Card shadow={5} style={{ minwidth: '450' }}>
 							<CardTitle
 								style={{
 									color: '#fff',
@@ -71,7 +71,8 @@ class Projects extends Component {
 							<h5
 								style={{
 									textAlign: 'left',
-									marginLeft: '.8em'
+									marginLeft: '.8em',
+									padding: '0'
 								}}
 							>
 								Search It
@@ -167,9 +168,9 @@ class Projects extends Component {
 							</CardMenu>
 						</Card>
 					</Cell>
-				</Grid>
-				{/* Project 4 */}
-				<Grid className="row">
+
+					{/* Project 4 */}
+
 					<Cell coll={4}>
 						<Card shadow={5} style={{ minWidth: '450' }}>
 							<CardTitle
