@@ -5,6 +5,7 @@ import movie from '../../src/assests/img/movie.jpg';
 import searchit from '../../src/assests/img/searchit.jpg';
 import happiest from '../../src/assests/img/happiest.jpg';
 import deafinitely from '../../src/assests/img/deafinitely.jpg';
+import { NavbarText } from 'reactstrap';
 
 class Projects extends Component {
 	render() {
@@ -22,16 +23,16 @@ class Projects extends Component {
 									backgroundSize: 'cover'
 								}}
 							/>
-							<h5
+							<h5>GUESS THAT MOVIE</h5>
+
+							<p
 								style={{
 									textAlign: 'left',
-									marginLeft: '.8em'
+									marginLeft: '1em'
 								}}
 							>
-								Guess That Movie
-							</h5>
-
-							<p style={{}}>utilizing JavaScript to guess movie titles based on images. </p>
+								utilizing JavaScript to guess movie titles based on images.{' '}
+							</p>
 							<CardText>
 								<p>
 									A game in which the player is prompted with three images that are symbolic of a
@@ -81,16 +82,13 @@ class Projects extends Component {
 									backgroundSize: 'cover'
 								}}
 							/>
-							<h5
+							<h5>SEARCH IT</h5>
+							<p
 								style={{
 									textAlign: 'left',
-									marginLeft: '.8em',
-									padding: '0'
+									marginLeft: '1em'
 								}}
 							>
-								Search It
-							</h5>
-							<p>
 								using Mongoose and Node.js to add, create and update posts and reviews of local
 								businesses based on the criteria of deaf friendliness.
 							</p>
@@ -149,29 +147,17 @@ class Projects extends Component {
 									backgroundSize: 'cover'
 								}}
 							/>
-							<h5
-								style={{
-									textAlign: 'left',
-									marginLeft: '1em',
-									padding: '0'
-								}}
-							>
-								Happiest Hour
-							</h5>
-							<p
-								style={{
-									position: 'absolute'
-								}}
-							>
-								A collaborative project as a UX Designer, Front-end Developer{' '}
-							</p>
+
+							<h5>HAPPIEST HOUR</h5>
+
 							<p
 								style={{
 									textAlign: 'left',
 									marginLeft: '1em'
 								}}
 							>
-								employing Python and Django to create group events and invite friends.
+								A collaborative project as UX Designer and Front-end Developer. Employing Python and
+								Django to create group events and invite friends.
 							</p>
 
 							<CardText>
@@ -215,15 +201,7 @@ class Projects extends Component {
 									backgroundSize: 'cover'
 								}}
 							/>
-							<h5
-								style={{
-									textAlign: 'left',
-									marginLeft: '1em',
-									padding: '0'
-								}}
-							>
-								Deafinitely Friendly
-							</h5>
+							<h5>DEAFINITELY FRIENDLY</h5>
 
 							<p
 								style={{
