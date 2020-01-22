@@ -11,20 +11,6 @@ class App extends Component {
 		return (
 			<div className to="demo-big-content">
 				<Layout>
-					<Drawer
-						title={
-							<Link style={{ textDecoration: 'none', color: 'black' }} to="/">
-								MyPortfolio
-							</Link>
-						}
-						scroll
-					>
-						<Navigation>
-							<Link to="/about">About</Link>
-							<Link to="/projects">Projects</Link>
-							<Link to="/contact">Contact</Link>
-						</Navigation>
-					</Drawer>
 					<Content>
 						<div className to="page-content" />
 						<Main />
