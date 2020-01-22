@@ -20,7 +20,11 @@ class Home extends Component {
 						<hr />
 						<h1>BEVERLY OSORIA</h1>
 
-						<h3>
+						<h3
+							style={{
+								padding: '0 12vmin 0 12vmin'
+							}}
+						>
 							Hi! I'm a front-end developer with full stack exposure focused on crafting clean &
 							user-friendly experiences.
 						</h3>

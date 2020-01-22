@@ -27,26 +27,50 @@ class Contact extends Component {
 	render() {
 		const { name, email, message } = this.state;
 		return (
-			<form onSubmit={this.handleSubmit}>
+			<div className="banner-text">
+				<h1>CONTACT ME</h1>
+				<br />
 				<p>
-					<label>
-						Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-					</label>
+					Contact me by email:
+					<a
+						id="hover-link"
+						style={{
+							textDecoration: 'none',
+							color: '#e79087'
+						}}
+						href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfTDvVCVLnbKPbNNwCcSMdHKsHjgPqkQkNCZpcLHqRblHcgPhmpxwmlvLvcMclbtCQnBV"
+						target="_blank"
+					>
+						bevosoria@gmail.com
+					</a>
 				</p>
-				<p>
-					<label>
-						Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-					</label>
-				</p>
-				<p>
-					<label>
-						Message: <textarea name="message" value={message} onChange={this.handleChange} />
-					</label>
-				</p>
-				<p>
-					<button type="submit">Send</button>
-				</p>
-			</form>
+				<p>or feel free to send me a message using the form below.</p>
+				<br />
+				<form onSubmit={this.handleSubmit}>
+					<p>
+						<label>
+							Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+						</label>
+					</p>
+					<p>
+						<label>
+							Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+						</label>
+					</p>
+					<p>
+						<label id="message">
+							Message: <textarea name="message" value={message} onChange={this.handleChange} />
+						</label>
+					</p>
+					<p
+						style={{
+							paddingLeft: '78px'
+						}}
+					>
+						<button type="submit">Send</button>
+					</p>
+				</form>
+			</div>
 		);
 	}
 }
