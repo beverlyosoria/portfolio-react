@@ -20,16 +20,39 @@ class Home extends Component {
 						<hr />
 						<h1>BEVERLY OSORIA</h1>
 
-						<h2>FULL-STACK DEVELOPER</h2>
+						<h3>
+							Hi! I'm a front-end developer with full stack exposure focused on crafting clean &
+							user-friendly experiences.
+						</h3>
 						<hr />
 						<br />
 						<p>
 							<i class="fa fa-map-marker" aria-hidden="true" />
 							Austin
-							<i class="fa fa-github" aria-hidden="true" />
-							Github
-							<i class="fa fa-linkedin-square" aria-hidden="true" />
-							LinkedIn
+							<a
+								id="hover-link"
+								style={{
+									textDecoration: 'none',
+									color: '#fff'
+								}}
+								href="https://github.com/beverlyosoria"
+								target="_blank"
+							>
+								<i class="fa fa-github" aria-hidden="true" />
+								Github
+							</a>
+							<a
+								id="hover-link"
+								style={{
+									textDecoration: 'none',
+									color: '#fff'
+								}}
+								href="https://www.linkedin.com/in/beverlyosoria/"
+								target="_blank"
+							>
+								<i class="fa fa-linkedin-square" aria-hidden="true" />
+								LinkedIn
+							</a>
 						</p>
 
 						<div className="d-flex justify-content-center" />
