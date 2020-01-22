@@ -62,13 +62,30 @@ a:hover {
 .avatar-img {
 	height: 280px;
 	padding-top: 20px;
+	border-radius: 50%;
 }
+.about {
+	column-count: 3;
+	-webkit-column-width: 150px;
+	-moz-column-width: 150px;
+	column-width: 150px;
+}
+.about p {
+	text-align: justify;
+	word-spacing: -2px;
+}
+.about h4 {
+	margin: 5px;
+	padding: 5px;
+}
+
 .banner-text {
 	background-color: black;
 	opacity: .9;
 	width: 75%;
 	margin: auto;
 	border-radius: 10px;
+	padding: 1em;
 }
 
 .banner-text h1 {
@@ -83,6 +100,15 @@ a:hover {
 	color: white;
 	font-family: 'Dosis', sans-serif;
 }
+.banner-text h4 {
+	font-size: 20px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+	line-height: .5;
+	letter-spacing: 1px;
+	text-align: left;
+}
 .banner-text hr {
 	color: white;
 	width: 70%;
@@ -91,7 +117,6 @@ a:hover {
 .banner-text p {
 	color: white;
 	font-size: 20px;
-
 	font-family: 'Dosis', sans-serif;
 	letter-spacing: 1px;
 }
