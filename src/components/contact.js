@@ -46,6 +46,8 @@ class Contact extends Component {
 				</p>
 				<p>or feel free to send me a message using the form below.</p>
 				<br />
+				<hr />
+				<br />
 				<form onSubmit={this.handleSubmit}>
 					<p>
 						<label>
@@ -70,6 +72,36 @@ class Contact extends Component {
 						<button type="submit">Send</button>
 					</p>
 				</form>
+				<hr />
+				<br />
+				<p>
+					<i class="fa fa-map-marker" aria-hidden="true" />
+					Austin
+					<a
+						id="hover-link"
+						style={{
+							textDecoration: 'none',
+							color: '#fff'
+						}}
+						href="https://github.com/beverlyosoria"
+						target="_blank"
+					>
+						<i class="fa fa-github" aria-hidden="true" />
+						Github
+					</a>
+					<a
+						id="hover-link"
+						style={{
+							textDecoration: 'none',
+							color: '#fff'
+						}}
+						href="https://www.linkedin.com/in/beverlyosoria/"
+						target="_blank"
+					>
+						<i class="fa fa-linkedin-square" aria-hidden="true" />
+						LinkedIn
+					</a>
+				</p>
 			</div>
 		);
 	}
