@@ -128,10 +128,13 @@ i {
 /* contact page */
 input {
 	width: 200px;
+	background-color: #fcf4e9;
 }
 textarea {
 	width: 200px;
 	height: 100px;
+	outline: none;
+	background-color: #fcf4e9;
 }
 label#message {
 	padding-left: 20px;
@@ -139,8 +142,18 @@ label#message {
 
 .banner-text button {
 	border-radius: 10%;
-	background-color: #f7ce9efa;
+	background-color: #fcf4e9;
 }
 .banner-text button:hover {
 	opacity: .8;
+}
+/* footer */
+.footer {
+	font-family: 'Dosis', sans-serif;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
 }

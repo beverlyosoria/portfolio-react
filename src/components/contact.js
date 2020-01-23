@@ -31,14 +31,14 @@ class Contact extends Component {
 				<h1>CONTACT ME</h1>
 				<br />
 				<p>
-					Contact me by email:
+					Contact me by email:&nbsp;
 					<a
 						id="hover-link"
 						style={{
 							textDecoration: 'none',
 							color: '#e79087'
 						}}
-						href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfTDvVCVLnbKPbNNwCcSMdHKsHjgPqkQkNCZpcLHqRblHcgPhmpxwmlvLvcMclbtCQnBV"
+						href="mailto:bevosoria@gmail.com"
 						target="_blank"
 					>
 						bevosoria@gmail.com

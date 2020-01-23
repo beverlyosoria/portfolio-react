@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Navigation, Drawer, Content } from 'react-mdl';
 
 import Main from './components/main';
-import { Link } from 'react-router-dom';
+import Footer from './components/footer';
 
 class App extends Component {
 	render() {
@@ -16,6 +16,7 @@ class App extends Component {
 						<Main />
 					</Content>
 				</Layout>
+				<Footer />
 			</div>
 		);
 	}
