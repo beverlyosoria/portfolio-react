@@ -142,7 +142,7 @@ label#message {
 
 .banner-text button {
 	border-radius: 10%;
-	background-color: #fcf4e9;
+	background-color: #ffedd3;
 }
 .banner-text button:hover {
 	opacity: .8;
@@ -154,6 +154,6 @@ label#message {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	padding: 1rem;
+	padding: -5rem;
 	text-align: center;
 }
