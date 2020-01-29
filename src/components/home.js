@@ -25,8 +25,7 @@ class Home extends Component {
 								padding: '0 12vmin 0 12vmin'
 							}}
 						>
-							Hi! I'm a front-end developer with full stack exposure focused on crafting clean &
-							user-friendly experiences.
+							Hi! I'm a full-stack developer focused on crafting clean & user-friendly experiences.
 						</h3>
 						<hr />
 						<br />
