@@ -88,17 +88,17 @@ class Projects extends Component {
 									marginLeft: '1em'
 								}}
 							>
-								using Mongoose and Node.js to add, create and update posts and reviews of local
-								businesses based on the criteria of deaf friendliness.
+								a full-stack web application with Google authentication using Mongoose to add, create,
+								update, and delete posts and reviews of local businesses based on the criteria of
+								deaf-friendliness. The backend, built using Node, Express, and Mongo to create a
+								well-developed RESTful API.
 							</p>
 
 							<CardText>
 								<p>
 									A place where you can search for deaf-friendly businesses in your area or share your
-									consumer experience and insights as deaf, deafblind, and hard of hearing
-									individuals, friends/family of the deaf and those with a special interest in
-									creating a deaf-friendly world. The aim is to promote deaf-friendliness in your
-									community via awareness and feedback.
+									consumer experience as deaf, deafblind, and hard of hearing individuals. The aim is
+									to promote deaf-friendliness in your community via awareness and feedback.
 								</p>
 							</CardText>
 							<CardActions border>
@@ -155,8 +155,9 @@ class Projects extends Component {
 									marginLeft: '1em'
 								}}
 							>
-								A collaborative project as UX Designer and Front-end Developer. Employing Python and
-								Django to create group events and invite friends.
+								A collaborative project as Front-end Developer. A full-stack web application employing
+								Python and Django to create group events and invite friends while Postgres was used to
+								create a backend that stores users data.
 							</p>
 
 							<CardText>
@@ -208,8 +209,9 @@ class Projects extends Component {
 									marginLeft: '1em'
 								}}
 							>
-								working with React.js, Node.js, Express and a third party API to search for local
-								businesses and post reviews.
+								a full-stack web application working with React and a third party API to search for
+								local businesses and post reviews. User’s data is stored on a backend created using
+								Node, Express, and MongoDB. Includes user authentication with JWT.
 							</p>
 
 							<CardText>
