@@ -29,7 +29,7 @@ class Contact extends Component {
 		const { name, email, message } = this.state;
 		return (
 			<div className="banner-text">
-				<Fade>
+				<Fade duration={3000}>
 				<h1>CONTACT ME</h1>
 				<br />
 				<p>

@@ -19,7 +19,7 @@ class Home extends Component {
 					{/* Project 1 */}
 
 					<div className="banner-text">
-						<Fade>
+						<Fade duration={3000}>
 						<br />
 						<hr />
 						<h1>BEVERLY OSORIA</h1>

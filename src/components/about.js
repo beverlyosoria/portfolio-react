@@ -9,7 +9,7 @@ class About extends Component {
 	render() {
 		return (
 			<div className="banner-text">
-				<Fade>
+				<Fade duration={3000}>
 				<div className="about">
 					<img src={avatar} alt="avatar" className="avatar-img" />
 

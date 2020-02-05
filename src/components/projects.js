@@ -11,7 +11,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<div className="projects-grid">
-				<Fade>
+				<Fade duration={3000}>
 				<Grid className="row">
 					{/* Project 1 */}
 					<Cell coll={4}>
