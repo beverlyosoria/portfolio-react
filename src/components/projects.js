@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-
+import Fade from 'react-reveal/Fade';
 import { Grid, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Cell } from 'react-mdl';
 import movie from '../../src/assests/img/movie.jpg';
 import searchit from '../../src/assests/img/searchit.jpg';
 import happiest from '../../src/assests/img/happiest.jpg';
 import deafinitely from '../../src/assests/img/deafinitely.jpg';
 
+
 class Projects extends Component {
 	render() {
 		return (
 			<div className="projects-grid">
+				<Fade>
 				<Grid className="row">
 					{/* Project 1 */}
 					<Cell coll={4}>
@@ -259,6 +261,7 @@ class Projects extends Component {
 						</Card>
 					</Cell>
 				</Grid>
+				</Fade>
 			</div>
 		);
 	}

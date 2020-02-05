@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import Fade from 'react-reveal/Fade';
+
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
@@ -14,9 +15,11 @@ class Home extends Component {
 		if (this.state.activeTab === 0) {
 			return (
 				<div className="home-grid">
+					
 					{/* Project 1 */}
 
 					<div className="banner-text">
+						<Fade>
 						<br />
 						<hr />
 						<h1>BEVERLY OSORIA</h1>
@@ -41,7 +44,6 @@ class Home extends Component {
 								}}
 								href="https://github.com/beverlyosoria"
 								target="_blank"
-								rel="noopener noreferrer"
 							>
 								<i class="fa fa-github" aria-hidden="true" />
 								Github
@@ -60,27 +62,35 @@ class Home extends Component {
 								LinkedIn
 							</a>
 						</p>
-
+						
 						<div className="d-flex justify-content-center" />
+					</Fade>
 					</div>
+					
 				</div>
 			);
 		} else if (this.state.activeTab === 1) {
 			return (
 				<div>
+					
 					<About />
+					
 				</div>
 			);
 		} else if (this.state.activeTab === 2) {
 			return (
 				<div>
+					
 					<Projects />
+					
 				</div>
 			);
 		} else if (this.state.activeTab === 3) {
 			return (
 				<div>
+					
 					<Contact />
+					
 				</div>
 			);
 		}

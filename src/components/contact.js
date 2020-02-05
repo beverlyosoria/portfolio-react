@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
 const encode = (data) => {
 	return Object.keys(data).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
@@ -28,6 +29,7 @@ class Contact extends Component {
 		const { name, email, message } = this.state;
 		return (
 			<div className="banner-text">
+				<Fade>
 				<h1>CONTACT ME</h1>
 				<br />
 				<p>
@@ -105,6 +107,7 @@ class Contact extends Component {
 						LinkedIn
 					</a>
 				</p>
+				</Fade>
 			</div>
 		);
 	}

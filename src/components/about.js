@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import avatar from '../../src/assests/img/beverly.jpg';
+import Fade from 'react-reveal/Fade';
+
+
+
 
 class About extends Component {
 	render() {
 		return (
 			<div className="banner-text">
+				<Fade>
 				<div className="about">
 					<img src={avatar} alt="avatar" className="avatar-img" />
 
@@ -41,6 +46,7 @@ class About extends Component {
 						<h4>Git</h4>
 					</p>
 				</div>
+				</Fade>
 			</div>
 		);
 	}
