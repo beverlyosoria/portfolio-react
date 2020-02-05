@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Layout, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Content } from 'react-mdl';
 
 import Main from './components/main';
 import Footer from './components/footer';

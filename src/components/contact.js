@@ -40,6 +40,7 @@ class Contact extends Component {
 						}}
 						href="mailto:bevosoria@gmail.com"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						bevosoria@gmail.com
 					</a>
@@ -85,6 +86,7 @@ class Contact extends Component {
 						}}
 						href="https://github.com/beverlyosoria"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<i class="fa fa-github" aria-hidden="true" />
 						Github
@@ -97,6 +99,7 @@ class Contact extends Component {
 						}}
 						href="https://www.linkedin.com/in/beverlyosoria/"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<i class="fa fa-linkedin-square" aria-hidden="true" />
 						LinkedIn

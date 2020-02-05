@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
@@ -40,6 +41,7 @@ class Home extends Component {
 								}}
 								href="https://github.com/beverlyosoria"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<i class="fa fa-github" aria-hidden="true" />
 								Github
@@ -52,6 +54,7 @@ class Home extends Component {
 								}}
 								href="https://www.linkedin.com/in/beverlyosoria/"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<i class="fa fa-linkedin-square" aria-hidden="true" />
 								LinkedIn
@@ -95,7 +98,6 @@ class Home extends Component {
 
 					<Tab id="nav-tab">CONTACT</Tab>
 				</Tabs>
-
 				<Grid>
 					<Cell col={12}>
 						<div className="content">{this.toggleCategories()}</div>

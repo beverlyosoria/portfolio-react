@@ -48,6 +48,7 @@ class Projects extends Component {
 										}}
 										href="http://moviegame.surge.sh/"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Guess That Movie
 									</a>
@@ -60,6 +61,7 @@ class Projects extends Component {
 										}}
 										href="https://github.com/beverlyosoria/Guess-That-Movie"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Code
 									</a>
@@ -110,6 +112,7 @@ class Projects extends Component {
 										}}
 										href="https://deaf-friendly.herokuapp.com"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Search It
 									</a>
@@ -123,6 +126,7 @@ class Projects extends Component {
 										}}
 										href="https://github.com/beverlyosoria/deaf-friendly"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Code{' '}
 									</a>
@@ -178,6 +182,7 @@ class Projects extends Component {
 										}}
 										href="https://github.com/beverlyosoria/happiest-hour"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Code{' '}
 									</a>
@@ -229,6 +234,7 @@ class Projects extends Component {
 										}}
 										href="https://deafinitely-friendly.herokuapp.com/"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Deafinitely Friendly
 									</a>
@@ -241,6 +247,7 @@ class Projects extends Component {
 										}}
 										href="https://github.com/beverlyosoria/deafinitely-friendly"
 										target="_blank"
+										rel="noopener noreferrer"
 									>
 										Code{' '}
 									</a>
