@@ -23,8 +23,8 @@ class About extends Component {
 					<h1> ABOUT ME</h1>
 					<br />
 					<p>
-						I am a self-motivated, creative, and ambitious full-stack developer with knowledge and
-						proficiency in a variety of technologies. I’m driven by a desire to support my community using
+					I am a self-motivated, creative, and ambitious full-stack developer with knowledge and proficiency in a
+variety of front end and back end languages, frameworks, databases, and best code practices. I’m driven by a desire to support my community using
 						technology as a tool to communicate, educate, and promote social change. I want to learn
 						constantly and grow infinitely.
 					</p>
