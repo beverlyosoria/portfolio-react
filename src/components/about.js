@@ -14,18 +14,15 @@ class About extends Component {
 							style={{
 								color: '#000'
 							}}
-						>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda, laudantium
-							eius
-						</div>
+						/>
 						<h1> ABOUT ME</h1>
 						<br />
 						<p>
-							I am a self-motivated, creative, and ambitious full-stack developer with knowledge and
-							proficiency in a variety of front end and back end languages, frameworks, databases, and
-							best code practices. My education in mass communication and experience with software
-							engineering has given me an insight into the intersection of media and technology. I'm
-							passionate about creating fun, accessible, fast websites.
+							I am a self-motivated, creative, and ambitious web developer with knowledge and proficiency
+							in a variety of front end and back end languages, frameworks, databases, and best code
+							practices. My education in mass communication and experience with software engineering has
+							given me an insight into the intersection of media and technology. I'm passionate about
+							creating fun, accessible, fast websites.
 						</p>
 						<p>
 							<h4>My skills include:</h4>

@@ -15,82 +15,75 @@ class Home extends Component {
 		if (this.state.activeTab === 0) {
 			return (
 				<div className="home-grid">
-					
 					{/* Project 1 */}
 
 					<div className="banner-text">
 						<Fade duration={3000}>
-						<br />
-						<hr />
-						<h1>BEVERLY OSORIA</h1>
+							<br />
+							<hr />
+							<h1>BEVERLY OSORIA</h1>
 
-						<h3
-							style={{
-								padding: '0 12vmin 0 12vmin'
-							}}
-						>
-							Hi! I'm a full-stack developer focused on crafting clean & user-friendly experiences.
-						</h3>
-						<hr />
-						<br />
-						<p>
-							<i class="fa fa-map-marker" aria-hidden="true" />
-							Austin
-							<a
-								id="hover-link"
+							<h3
 								style={{
-									textDecoration: 'none',
-									color: '#fff'
+									padding: '0 12vmin 0 12vmin'
 								}}
-								href="https://github.com/beverlyosoria"
-								target="_blank"
 							>
-								<i class="fa fa-github" aria-hidden="true" />
-								Github
-							</a>
-							<a
-								id="hover-link"
-								style={{
-									textDecoration: 'none',
-									color: '#fff'
-								}}
-								href="https://www.linkedin.com/in/beverlyosoria/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<i class="fa fa-linkedin-square" aria-hidden="true" />
-								LinkedIn
-							</a>
-						</p>
-						
-						<div className="d-flex justify-content-center" />
-					</Fade>
+								Hi! I'm a front end focused full stack developer focused on crafting clean &
+								user-friendly experiences.
+							</h3>
+							<hr />
+							<br />
+							<p>
+								<i class="fa fa-map-marker" aria-hidden="true" />
+								Austin
+								<a
+									id="hover-link"
+									style={{
+										textDecoration: 'none',
+										color: '#fff'
+									}}
+									href="https://github.com/beverlyosoria"
+									target="_blank"
+								>
+									<i class="fa fa-github" aria-hidden="true" />
+									Github
+								</a>
+								<a
+									id="hover-link"
+									style={{
+										textDecoration: 'none',
+										color: '#fff'
+									}}
+									href="https://www.linkedin.com/in/beverlyosoria/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="fa fa-linkedin-square" aria-hidden="true" />
+									LinkedIn
+								</a>
+							</p>
+
+							<div className="d-flex justify-content-center" />
+						</Fade>
 					</div>
-					
 				</div>
 			);
 		} else if (this.state.activeTab === 1) {
 			return (
 				<div>
-					
 					<About />
-					
 				</div>
 			);
 		} else if (this.state.activeTab === 2) {
 			return (
 				<div>
-					
 					<Projects />
-					
 				</div>
 			);
 		} else if (this.state.activeTab === 3) {
 			return (
 				<div>
-					
 					<Contact />
-					
 				</div>
 			);
 		}
