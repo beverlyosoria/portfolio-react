@@ -14,7 +14,10 @@ class About extends Component {
 							style={{
 								color: '#000'
 							}}
-						/>
+						>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda, laudantium
+							eius
+						</div>
 						<h1> ABOUT ME</h1>
 						<br />
 						<p>
