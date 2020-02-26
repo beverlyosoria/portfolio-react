@@ -28,8 +28,8 @@ class Home extends Component {
 									padding: '0 12vmin 0 12vmin'
 								}}
 							>
-								Hi! I'm a front end focused full stack developer focused on crafting clean &
-								user-friendly experiences.
+								Hi! I'm a front end focused full stack developer. Passionate about making a social
+								impact in the ever-evolving space of technology.
 							</h3>
 							<hr />
 							<br />

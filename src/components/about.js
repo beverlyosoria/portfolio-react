@@ -21,11 +21,12 @@ class About extends Component {
 						<h1> ABOUT ME</h1>
 						<br />
 						<p>
-							I am a self-motivated, creative, and ambitious web developer with knowledge and proficiency
-							in a variety of front end and back end languages, frameworks, databases, and best code
-							practices. My education in mass communication and experience with software engineering has
-							given me an insight into the intersection of media and technology. I'm passionate about
-							creating fun, accessible, fast websites.
+							I enjoy creating. I became interested in coding after taking a web design class in college
+							and discovered my love for designing and building full-stack web applications. My education
+							in mass communication and experience with software engineering has given me an insight into
+							the intersection of mass media and technology. I feel strongly that code is an important way
+							to convey information and can be used as a tool to inform, educate, and promote social
+							change.
 						</p>
 						<p>
 							<h4>My skills include:</h4>
