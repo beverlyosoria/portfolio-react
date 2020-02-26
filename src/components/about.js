@@ -8,28 +8,46 @@ class About extends Component {
 			<div className="banner-text">
 				<Fade duration={3000}>
 					<div className="about">
+						<br />
+						<br />
+						<br />
+						<br />
 						<img src={avatar} alt="avatar" className="avatar-img" />
 
-						<div
-							style={{
-								color: '#000'
-							}}
-						>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur assumenda, laudantium
-							eius
-						</div>
+						<br />
 						<h1> ABOUT ME</h1>
 						<br />
+
 						<p>
-							I enjoy creating. I became interested in coding after taking a web design class in college
-							and discovered my love for designing and building full-stack web applications. My education
-							in mass communication and experience with software engineering has given me an insight into
-							the intersection of mass media and technology. I feel strongly that code is an important way
-							to convey information and can be used as a tool to inform, educate, and promote social
-							change.
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />
+							<br />I enjoy creating.
+							<br />I became interested in coding after taking a web design class in college and
+							discovered my love for designing and building full-stack web applications.
+							<br />
+							<br />
+							My education in mass communication and experience with software engineering has given me an
+							insight into the intersection of mass media and technology. I feel strongly that code is an
+							important way to convey information and can be used as a tool to inform, educate, and
+							promote social change.
+							<br />
+							<br />
+							<p>
+								I want to enable technology for the good and help create solutions for the overlooked
+								and underserved communities.
+							</p>
 						</p>
 						<p>
-							<h4>My skills include:</h4>
+							<h4
+								style={{
+									marginTop: '150px'
+								}}
+							>
+								My skills include:
+							</h4>
 							<p />
 							<h4>HTML5 </h4>
 							<h4>CSS3</h4>
@@ -45,6 +63,8 @@ class About extends Component {
 							<h4>Mongoose</h4>
 							<h4>Git</h4>
 						</p>
+						<br />
+						<br />
 					</div>
 				</Fade>
 			</div>
