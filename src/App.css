@@ -30,7 +30,7 @@ i {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100%, auto;
 	font-family: 'Dosis', sans-serif;
 	font-size: 25px;
 }
@@ -41,12 +41,12 @@ i {
 	padding-top: 20px;
 	border-radius: 50%;
 }
-.about {
+/* .about {
 	column-count: 3;
 	-webkit-column-width: 150px;
 	-moz-column-width: 150px;
-	column-width: 150px;
-}
+	column-width: 150px; */
+
 .about p {
 	text-align: justify;
 	word-spacing: -.4vmin;
@@ -59,7 +59,7 @@ i {
 	background-color: black;
 	opacity: .9;
 	width: 75%;
-	height: auto;
+
 	margin: auto;
 	border-radius: 10px;
 	padding: 1em;
@@ -158,4 +158,11 @@ label#message {
 	left: 0;
 	padding: -5rem;
 	text-align: center;
+}
+
+@media (min-width: 700px) {
+	.home-grid {
+		width: auto;
+		height: auto;
+	}
 }
