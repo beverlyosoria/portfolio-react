@@ -8,22 +8,12 @@ class About extends Component {
 			<div className="banner-text">
 				<Fade duration={3000}>
 					<div className="about">
-						<br />
-						<br />
-						<br />
-						<br />
 						<img src={avatar} alt="avatar" className="avatar-img" />
 
-						<br />
 						<h1> ABOUT ME</h1>
 						<br />
 
 						<p>
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
 							<br />I enjoy creating.
 							<br />I became interested in coding after taking a web design class in college and
 							discovered my love for designing and building full-stack web applications.
@@ -43,7 +33,7 @@ class About extends Component {
 						<p>
 							<h4
 								style={{
-									marginTop: '150px'
+									marginTop: '60px'
 								}}
 							>
 								My skills include:

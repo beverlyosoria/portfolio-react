@@ -37,18 +37,19 @@ i {
 
 /* about page */
 .avatar-img {
-	height: 280px;
+	height: 345px;
 	padding-top: 20px;
 	border-radius: 50%;
+	margin: 25px;
 }
-/* .about {
+.about {
 	column-count: 3;
 	-webkit-column-width: 150px;
 	-moz-column-width: 150px;
-	column-width: 150px; */
-
+	column-width: 150px;
+}
 .about p {
-	text-align: justify;
+	text-align: left;
 	word-spacing: -.4vmin;
 }
 .about h4 {
