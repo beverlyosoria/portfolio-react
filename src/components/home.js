@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import Fade from 'react-reveal/Fade';
+import { Container, Col, Row } from 'react-bootstrap';
 
 import About from './about';
 import Projects from './projects';
@@ -14,59 +15,61 @@ class Home extends Component {
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
 			return (
-				<div className="home-grid">
-					{/* Project 1 */}
+				<Fade duration={6000}>
+					<div className="home-grid">
+						<div className="banner-text">
+							<Container>
+								<br />
+								<hr />
+								<Row>
+									<Col xs={6} sm={6} md={8}>
+										<h1>BEVERLY OSORIA</h1>
+										<h3
+											style={{
+												padding: '0 12vmin 0 12vmin'
+											}}
+										>
+											Hi! I'm a front end focused full stack developer. Passionate about making a
+											social impact in the ever-evolving space of technology.
+										</h3>
+									</Col>
+								</Row>
 
-					<div className="banner-text">
-						<Fade duration={3000}>
-							<br />
-							<hr />
-							<h1>BEVERLY OSORIA</h1>
-
-							<h3
-								style={{
-									padding: '0 12vmin 0 12vmin'
-								}}
-							>
-								Hi! I'm a front end focused full stack developer. Passionate about making a social
-								impact in the ever-evolving space of technology.
-							</h3>
-							<hr />
-							<br />
-							<p>
-								<i class="fa fa-map-marker" aria-hidden="true" />
-								Austin
-								<a
-									id="hover-link"
-									style={{
-										textDecoration: 'none',
-										color: '#fff'
-									}}
-									href="https://github.com/beverlyosoria"
-									target="_blank"
-								>
-									<i class="fa fa-github" aria-hidden="true" />
-									Github
-								</a>
-								<a
-									id="hover-link"
-									style={{
-										textDecoration: 'none',
-										color: '#fff'
-									}}
-									href="https://www.linkedin.com/in/beverlyosoria/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<i class="fa fa-linkedin-square" aria-hidden="true" />
-									LinkedIn
-								</a>
-							</p>
-
-							<div className="d-flex justify-content-center" />
-						</Fade>
+								<hr />
+								<br />
+								<p>
+									<i class="fa fa-map-marker" aria-hidden="true" />
+									Austin
+									<a
+										id="hover-link"
+										style={{
+											textDecoration: 'none',
+											color: '#fff'
+										}}
+										href="https://github.com/beverlyosoria"
+										target="_blank"
+									>
+										<i class="fa fa-github" aria-hidden="true" />
+										Github
+									</a>
+									<a
+										id="hover-link"
+										style={{
+											textDecoration: 'none',
+											color: '#fff'
+										}}
+										href="https://www.linkedin.com/in/beverlyosoria/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<i class="fa fa-linkedin-square" aria-hidden="true" />
+										LinkedIn
+									</a>
+								</p>
+							</Container>
+						</div>
 					</div>
-				</div>
+				</Fade>
 			);
 		} else if (this.state.activeTab === 1) {
 			return (
