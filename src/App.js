@@ -9,7 +9,7 @@ import Footer from './components/footer';
 class App extends Component {
 	render() {
 		return (
-			<div className to="demo-big-content">
+			<div className to="big-content">
 				<Layout>
 					<Content>
 						<div className to="page-content" />
